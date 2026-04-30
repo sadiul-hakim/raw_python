@@ -18,3 +18,13 @@ def increment(number=0, by=0):  # Optional parameter should come after required 
 
 
 print(increment(2, by=1))
+
+
+def multiply(*numbers):
+    res = 1
+    for x in numbers:
+        res *= x
+    return res
+
+
+print(multiply(1, 2, 3, 4, 5))
