@@ -9,3 +9,6 @@ print(type(x))
 # ""
 # 0
 # None
+
+# Comparison Operator
+# >,<,==,<=,>=,!=
