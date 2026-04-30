@@ -1,3 +1,5 @@
+import math
+
 # Learning Python
 message = "Hi Sabina,\nHow is my son?"
 print(len(message))
@@ -20,3 +22,23 @@ print(full_name.strip())
 print(full_name.find("Sal"))
 print(full_name.replace("Salman", "Sallu"))
 print("Salman" in full_name)
+print("Sallu" not in full_name)
+
+# Numbers
+a = 10
+b = 10.10
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)  # Floating Point Division
+print(b // a)  # Integer Division
+print(b % a)
+print(b ** a)
+
+a += 10
+
+print(round(b % a))
+
+# Math
+print(math.ceil(12.23))
