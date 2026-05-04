@@ -57,4 +57,39 @@ print("Python is " + x)
 """
 # Random
 
-print(random.randrange(1, 10))
+# print(random.randrange(1, 10))
+
+# String
+"""
+for x in "banana":
+    print(x)
+
+print(len("banana"))
+
+txt = "The best things in life are free!"
+if "free" in txt:
+    print("Yes, 'free' is present.")
+
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+
+b = "Hello, World!"
+print(b[2:5])
+
+b = "Hello, World!"
+print(b[:5])
+
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+
+age = 22
+print(f"Hakim is {age} years old")
+
+price = 36.12345
+print(f"Price : {price:.2f}")
+
+name = "Hakim"
+print(name.encode())
+"""
